@@ -14,7 +14,17 @@
 	<link rel="stylesheet" href="css/fontello.css">
 	<link rel="stylesheet" href="icons">
 	<link rel="stylesheet" href="css/fontello.css">
-  <script src="script.js"></script>
+  <!-- <script type="text/javascript" src="script.js"></script> -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script>
+	 var angle = 0;
+	 $(document).on('click', ".spin", function() {
+	 angle += 360
+	 $(this).css('-webkit-transform','rotate('+angle+'deg)');
+	 })
+	</script>
+
 
 	<!--[if lt IE 9]>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -48,34 +58,35 @@
 						</div>
 
 				<footer id="bottom_footer">
-					
+
 					<div class="info">
 						Look carefully and notice every detail, nothing tricky though.
 					</div>
 					<div class="socialdivs">
 						<div class="fb">
 							<a href="http://facebook.com" target="_blank">
-								<img src="icons/fb.png" height="25px"width="auto";> /Awesome</a>
+								<img src="icons/fb.png" height="25px"width="auto";>/ Awesome</a>
 						</div>
 						<div class="gplus">
 							<a href="http://plus.google.com" target="_blank">
-								<img src="icons/twitter.png" height="25px" width="auto">/Awesome</a>
+								<img src="icons/twitter.png" height="25px" width="auto">/ Awesome</a>
 						</div>
 						<div class="tw">
 							<a href="http://twitter.com" target="_blank">
-								<img src="icons/google-.png" height="25px" width="35px">/Awesome</a>
+								<img src="icons/google-.png" height="25px" width="35px">/ Awesome</a>
 						</div>
 					</div>
 					<div style="clear:both;"></div>
 					</div>
 
 				</footer>
-
-				<div class="ending" >
-						<i>More</i>
+				<div class="triangle_more">
+						<div class="more"><a href="#"><span>More</span></a>
+						</div>
 				</div>
-
-
-
+				<!-- <div class="triangle_more">
+						<div class="more"><a href="#">More</a>
+						</div>
+				</div> -->
 		</body>
 	</html>
