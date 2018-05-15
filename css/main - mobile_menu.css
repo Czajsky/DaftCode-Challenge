@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:200,600');
+
+body
+{
+	background-color: #001820;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position:top left;
+  font-family: 'Open Sans Regular', sans-serif;
+  font-size: 17px;
+  color: #000000;
+	margin-bottom: 0px;
+	max-width: 600px;  /*?????? */
+	max-height: 850px; /*?????? */
+	border: 2px solid red;
+}
+
+a{color: white}
+a:link {text-decoration: none}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+
+.logo-awesome
+{
+text-align: right;
+width: 70%;
+image-orientation: topnav;
+display: inline-block;
+}
+
+.iks
+{
+display: inline-block;
+float: right;
+width: 30%;
+text-align: right;
+margin-top: 18px;
+}
+
+.menu
+{
+	list-style-type: none;
+	margin: 10px;
+	padding: 10px;
+	font-size: 16px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration:none;
+  float: center;
+  color: #ffffff;
+	margin-right: 100px;
+}
+
+.menu > li
+{
+  padding-left: 23px;
+	padding-right: 23px;
+  color: white;
+  color: #ffffff
+  text-decoration: none;
+	text-align: center;
+}
+
+.menu > li:last-child
+{
+	border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.fb
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	width: auto;
+	height: auto;
+  color: white;
+  text-transform: uppercase;
+	padding: 30px;
+	text-align: center;
+}
+
+.tw
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	width: auto;
+	height: auto;
+  color: white;
+  text-transform: uppercase;
+	padding: 30px;
+	text-align: center;
+}
+
+ .gplus
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	width: auto;
+	height: auto;
+  color: white;
+  text-transform: uppercase;
+	padding: 30px;
+	text-align: center;
+}

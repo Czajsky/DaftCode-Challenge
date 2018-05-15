@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Awesome- Mobile Menu - Home Site</title>
+	<meta name="description" content="Awesome - Mobile Menu - Home Site">
+	<meta name="keywords" content="daftcode, html, css, javascript, ">
+	<meta name="author" content="Lorem ipsum...">
+
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<link rel="stylesheet" href="css/main - mobile_menu.css">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="icons">
+	<link rel="stylesheet" href="css/fontello.css">
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+	</script>
+	<script>
+	 var angle = 0;
+	 $(document).on('click', ".spin", function() {
+	 angle += 360
+	 $(this).css('-webkit-transform','rotate('+angle+'deg)');
+	 })
+	</script>
+</head>
+
+		<body>
+
+			<nav id="topnav">
+
+					<div class="logo-awesome"><a href="#">
+								<img src="icons/logo_awesome.svg" height="100px" width="200px"> </a>
+					</div>
+
+					<div class="iks"><a href="#">
+								<img src="icons/iks.svg" height="40px" width="40px"> </a>
+					</div>
+
+			</nav>
+
+			<div class="main_menu">
+
+				<ul class="menu">
+					<li><a href="#">Features<span></span></a></li>
+					<li><a href="#">Case Studies</a></li>
+					<li><a href="#">About</a></li>
+					<li class="solidButton"><a href="#">Contact</a></li>
+				</ul>
+		</div>
+
+
+			<div class="socialdivs">
+				<div class="fb">
+						<a href="http://facebook.com" target="_blank">
+								<img src="icons/fb.png" height="25px"width="auto";></a>
+				</div>
+					<div class="tw">
+							<a href="http://plus.google.com" target="_blank">
+								<img src="icons/twitter.png" height="25px" width="auto"></a>
+					</div>
+					<div class="gplus">
+							<a href="http://twitter.com" target="_blank">
+									<img src="icons/google-.png" height="25px" width="35px"></a>
+								</div>
+
+			</div>
+
+
+		</body>
+</html>
