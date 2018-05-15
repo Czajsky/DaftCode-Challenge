@@ -6,7 +6,7 @@ body
 	background-size: auto;
 	background-repeat: no-repeat;
 	background-position:top left;
-  font-family: 'Open Sans Regular', sans-serif;
+  font-family: 'Open Sans ', sans-serif;
   font-size: 17px;
   color: #000000;
 	margin-bottom: 0px;
@@ -22,19 +22,19 @@ a:active {text-decoration: none}
 
 .logo-awesome
 {
-text-align: right;
-width: 70%;
-image-orientation: topnav;
-display: inline-block;
+	text-align: right;
+	width: 70%;
+	image-orientation: top;
+	display: inline-block;
 }
 
 .iks
 {
-display: inline-block;
-float: right;
-width: 30%;
-text-align: right;
-margin-top: 18px;
+	display: inline-block;
+	float: right;
+	width: 30%;
+	text-align: right;
+	margin-top: 18px;
 }
 
 .menu
@@ -45,20 +45,25 @@ margin-top: 18px;
 	font-size: 16px;
   line-height: 40px;
   text-transform: uppercase;
+	font-weight: 400;
   text-decoration:none;
   float: center;
   color: #ffffff;
-	margin-right: 100px;
+	margin-right: 10px;
+	font-family: 'Open sans'
 }
 
 .menu > li
 {
   padding-left: 23px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	padding-right: 23px;
   color: white;
-  color: #ffffff
+  color: #ffffff;
   text-decoration: none;
 	text-align: center;
+	display: block;
 }
 
 .menu > li:last-child
@@ -66,6 +71,38 @@ margin-top: 18px;
 	border: 2px solid white;
   border-radius: 5px;
   text-align: center;
+	width: 80px;
+	height: 17px;
+	display: block;
+	position: center;
+	}
+
+
+	#main_menu .solidButton
+	{
+	  transition: all 300ms ease-out;
+	}
+
+	#main_menu .solidButton:hover
+	{
+		background-color: white;
+	}
+
+	#main_menu .solidButton:hover a
+	{
+		color: black;
+	}
+
+.socialdivs
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 130px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  color: white;
 }
 
 .fb
@@ -78,6 +115,8 @@ margin-top: 18px;
   text-transform: uppercase;
 	padding: 30px;
 	text-align: center;
+	display: inline-block;
+
 }
 
 .tw
@@ -90,6 +129,8 @@ margin-top: 18px;
   text-transform: uppercase;
 	padding: 30px;
 	text-align: center;
+	display: inline-block;
+
 }
 
  .gplus
@@ -102,4 +143,6 @@ margin-top: 18px;
   text-transform: uppercase;
 	padding: 30px;
 	text-align: center;
+	display: inline-block;
+
 }
